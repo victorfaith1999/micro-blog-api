@@ -10,7 +10,7 @@ const app = express();
 
 /** Connect Database */
 connectDB();
-const PORT = proccess.env.PORT || 5000;
+const PORT = process.env.PORT;
 
 /** Middleware */
 app.use(bodyParser.json());
